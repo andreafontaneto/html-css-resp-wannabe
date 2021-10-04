@@ -72,6 +72,10 @@ PARTE RESPONSIVE
     box-sizing: border-box;
   }
 
+  body{
+    font-size: 14px;
+  }
+
   .row{
     width: 100%;
     margin-top: 0;
@@ -81,7 +85,7 @@ PARTE RESPONSIVE
 
   /* BLOCCO LEZIONI */
 
-  #lezioni, #steps{
+  #lezioni, #steps, #why{
     padding: 0 15px;
   }
 
@@ -114,6 +118,27 @@ PARTE RESPONSIVE
   }
 
   #steps .row > .right{
+    padding-bottom: 10px;
+  }
+
+  /* BLOCCO PERCHE */
+
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third{
+  width: 100%;
+  }
+
+  #why .row >.first{
+    margin-top: 0;
+  }
+
+  #why .row > .second,
+  #why .row > .third{
+  margin-top: 20px;
+  }
+
+  #why .row > .third{
     padding-bottom: 10px;
   }
 
