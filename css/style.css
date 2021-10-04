@@ -62,3 +62,54 @@ img{
 
 /*PARTE RESPONSIVE*/
 
+@media screen and (max-width: 420px){
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .row{
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* BLOCCO LEZIONI */
+
+  #lezioni{
+    padding: 0 15px;
+  }
+
+  #lezioni .row > .left, 
+  #lezioni .row > .right{
+  width: 100%;
+  display: block;
+  }
+
+  .row h1{
+    padding: 20px 0;
+  }
+
+  .row .left{
+    padding-bottom: 20px;
+  }
+
+  .row .right{
+    padding-bottom: 10px;
+  }
+
+  /* COMMON */
+
+  .container.grey{
+    background-color: #E6E6BD;
+  }
+
+  img{
+    height: 100px;
+  }
+
+
+}
