@@ -164,14 +164,22 @@ PARTE RESPONSIVE
   }
 
   .row{
-    width: 100%;
+    width: 80%;
     margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
+  }
+
+  .row h1{
+    padding: 40px 0;
+  }
+
+  .row h3{
+    font-size: 25px;
+    padding: 10px 0;
   }
 
   .row img{
     height: 100px;
+    padding-bottom: 10px;
   }
 
   /* BLOCCO LEZIONI */
@@ -181,6 +189,38 @@ PARTE RESPONSIVE
   width: 100%;
   display: block;
   margin: 0;
+  padding-bottom: 20px;
   }
 
+  #lezioni .row > .right{
+    padding-bottom: 40px;
+  }
+
+  /*  BLOCCO STEPS */
+
+  #steps .row h1{
+    padding-top: 100px;
+  }
+
+  #steps .row > .left{
+    padding-bottom: 100px;
+  }
+
+  /* BLOCCO PERCHE */
+
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third{
+    margin-top: 0;
+  }
+
+  #why .row > .third{
+    padding-bottom: 40px;
+  }
+
+  #why .row hr{
+    width: 200px;
+    margin: 50px auto;
+    color: #3877BC;
+  }
 }
