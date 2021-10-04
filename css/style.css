@@ -60,7 +60,9 @@ img{
   clear:both;
 }
 
-/*PARTE RESPONSIVE*/
+/*-----------------------------
+PARTE RESPONSIVE
+-----------------------------*/
 
 @media screen and (max-width: 420px){
 
@@ -79,7 +81,7 @@ img{
 
   /* BLOCCO LEZIONI */
 
-  #lezioni{
+  #lezioni, #steps{
     padding: 0 15px;
   }
 
@@ -89,15 +91,29 @@ img{
   display: block;
   }
 
+  #lezioni .row > .left{
+    padding-bottom: 20px;
+  }
+
+  #lezioni .row > .right{
+    padding-bottom: 10px;
+  }
+
   .row h1{
     padding: 20px 0;
   }
 
-  .row .left{
-    padding-bottom: 20px;
+  /* BLOCCO STEPS */
+
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+  float: none;
+  width: 100%;
+  padding-bottom: 20px;
   }
 
-  .row .right{
+  #steps .row > .right{
     padding-bottom: 10px;
   }
 
